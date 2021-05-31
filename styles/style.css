@@ -24,12 +24,16 @@ body {
   margin-top: 10vh;
   width: 100%;
   display: flex;
+  padding: 0px;
 }
 
 .sidebar {
   flex: 1;
-  height: 100vh;
+  height: auto;
   background-color: #afc7ac;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
 }
 
 .content {
@@ -37,6 +41,8 @@ body {
   height: 100vh;
   background-color: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content_title {
@@ -49,9 +55,84 @@ body {
   font-size: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
+  font-family: "Saira", sans-serif;
+  letter-spacing: 10px;
+  font-weight: bold;
 }
 
 .paragraf {
-  color: #979191;
-  font-size: 16px;
+  color: black;
+  font-size: 30px;
+  font-family: "Advent Pro", sans-serif;
+}
+
+.paragraf3 {
+  color: black;
+  font-size: 30px;
+  font-family: "Advent Pro", sans-serif;
+  margin-bottom: 30px;
+}
+
+.paragraf2 {
+  color: black;
+  font-size: 30px;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+}
+
+.personal_picture {
+  height: 343px;
+  width: 543px;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding: 20px;
+  border: solid 2px white;
+}
+
+.name {
+  font-family: "Saira", sans-serif;
+  font-size: 70px;
+  align-self: center;
+  color: white;
+}
+
+.name2 {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 50px;
+  align-self: center;
+  color: white;
+  border-bottom: 7px white solid;
+  padding-bottom: 30px;
+  margin: 20px;
+}
+
+.exp {
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  align-self: center;
+  margin-top: 20px;
+  border-bottom: white 4px solid;
+  border-top: white 4px solid;
+}
+
+.stuff {
+  color: white;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 30px;
+  align-self: center;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+p {
+  color: white;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 20px;
+  align-self: center;
+  margin: 0px;
+  font-style: italic;
+  font-weight: lighter;
 }
